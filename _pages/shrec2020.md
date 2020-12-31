@@ -74,7 +74,7 @@ The registration and submission deadlines are in AoE (Anywhere on Earth) timezon
 <br/>
 <br/>
 
-<img src="/assets/logo_cyclomedia.jpg" width="200">
+<img src="/assets/logo_cyclomedia.jpg" width="150">
 
 > CycloMedia develops, builds and operates the worlds most advanced mobile mapping systems. With a combination of sensors ranging from cameras and Lidar scanners to state-of-the-art positioning systems we map dense urban areas in Western Europe and North America. Point clouds and images are accurately geo-registered, where the panoramic imagery is of high geometric quality.
 > The petabytes of data (all processed and stored in the Microsoft Azure cloud) that we collect every year are used by “professional users”, ranging from city governments to large corporates working in utilities, infrastructure and insurance. Their one common denominator is their need for better data and information to drive change in how they can serve their inhabitants and customers. Today our solutions make cities more safe, green, accessible and smart and help companies to make the right decisions based on fresh and accurate data. CycloMedia is based in The Netherlands and has offices in the US and Germany.
