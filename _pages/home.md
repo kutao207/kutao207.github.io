@@ -28,7 +28,7 @@ The data is provided by Cyclomedia. We choose over ??  manually annotated street
 
 (1) `Nochange` (2) `Change` (3) `Added` (4) `Removed` (5) `Color_change` 
 
-To explain the class labels, suppose we have a point cloud pair of time t1 and t2. Here, ‘Added’ and ‘Removed’ mean an object existed at time t1 but not at t2 and vice versa. ‘Color_change’ refers to cases where change occurs only in color. ‘Change’ refers to cases where an object is there but changed or replaced by a different object.
+To explain the class labels, suppose we have a point cloud pair of time t1 and t2. Here, `Added` and `Removed` mean an object existed at time t1 but not at t2 and vice versa. `Color_change` refers to cases where change occurs only in color. `Change` refers to cases where an object is there but changed or replaced by a different object.
 
 
 <!-- ![](assets/image01.png)
@@ -61,9 +61,9 @@ The registration and submission deadlines are in AoE (Anywhere on Earth) timezon
 
 -	Feb 10, 2021: Registration deadline.
 
--	March 1, 2021: Submission deadline of the results.
+-	<p style="color: red">March 1, 2021: Submission deadline of the results.</p>
 
--	March 15, 2021: Track submission to SHREC for review.
+-	<p style="color: red">March 15, 2021: Track submission to SHREC for review.</p>
 
 -	April 15, 2021: First reviews done, first stage decision on acceptance or rejection.
 
