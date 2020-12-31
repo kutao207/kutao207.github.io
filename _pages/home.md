@@ -53,7 +53,7 @@ From participants, no later than the deadline mentioned in the schedule, we expe
 
 The main goal of the track is to segment semantic objects out of the street-scene 3D point clouds. For different classes, IoU (Intersection over Union) is one of the main evaluation metrics. For the whole dataset, the unweighted average of IoU (mIoU) of each class and global accuracy are import indicators. We set these three metrics as the main evaluation indicators.
 
-## Timeline
+## Schedule
 
 The registration and submission deadlines are in AoE (Anywhere on Earth) timezone.
 
