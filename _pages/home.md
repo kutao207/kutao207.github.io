@@ -39,7 +39,7 @@ To fit for a learning system, the dataset is split into training and test sets w
 
 ## Download
 
-To obtain the dataset, you must register first:
+**To obtain the dataset, you must register first:**
 
 ## Registration
 
