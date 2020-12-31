@@ -78,9 +78,16 @@ The registration and submission deadlines are in AoE (Anywhere on Earth) timezon
 -	September, 2021: Publication online in Computers & Graphics journal.
 
 
-## Expected participants
+## Organizers
 
-All experts interested in 3D point cloud change detection are welcome to participate.
+- Tao Ku, Utrecht University, Department of Information and Computing Sciences.
+- Sam Galanakis, Utrecht University, Department of Information and Computing Sciences.
+- Remco C. Veltkamp, Utrecht University, Department of Information and Computing Sciences.
+- Bas Boom, Cyclomedia Technology.
+
+To contact the organizers, please send email to [t.ku@uu.nl](mailto:t.ku@uu.nl)
+
+
 
 <img src="/assets/logo_cyclomedia.jpg" width="150">
 
