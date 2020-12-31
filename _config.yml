@@ -7,8 +7,9 @@ title: "SHREC 2021 Track: 3D Point Cloud Change Detection for Street Scenes" # t
 # middle_name: R.
 # last_name: Name
 # email: you@example.com
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  SHREC 2021 Track: 3D Point Cloud Change Detection for Street Scenes
+description: "SHREC 2021 Track: 3D Point Cloud Change Detection for Street Scenes"
+# description: > # the ">" symbol means to ignore newlines until "footer_text:"
+#   "SHREC 2021 Track: 3D Point Cloud Change Detection for Street Scenes"
 # footer_text: >
 #   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 #   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
