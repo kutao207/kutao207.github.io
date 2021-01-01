@@ -57,7 +57,7 @@ The main goal of the track is to segment semantic objects out of the street-scen
 
 The registration and submission deadlines are in AoE (Anywhere on Earth) timezone.
 
--	Jan 4, 2021: The dataset is available.
+-	Jan 8, 2021: The dataset is available.
 
 -	Feb 10, 2021: Registration deadline.
 
