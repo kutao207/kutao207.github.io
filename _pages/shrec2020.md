@@ -66,6 +66,24 @@ The registration and submission deadlines are in AoE (Anywhere on Earth) timezon
 - September 1, 2020: Publication online in Computers & Graphics.
 - September 4-5, 2020: Eurographics Workshop on 3D Object Retrieval 2020, featuring SHREC 2020.
 
+## Citation
+
+If you're willing to use the data, please cite
+
+```bib
+@article{KU202013,
+title = "SHREC 2020: 3D point cloud semantic segmentation for street scenes",
+journal = "Computers & Graphics",
+volume = "93",
+pages = "13 - 24",
+year = "2020",
+issn = "0097-8493",
+doi = "https://doi.org/10.1016/j.cag.2020.09.006",
+url = "http://www.sciencedirect.com/science/article/pii/S0097849320301400",
+author = "Tao Ku and Remco C. Veltkamp and Bas Boom and David Duque-Arias and Santiago Velasco-Forero and Jean-Emmanuel Deschaud and Francois Goulette and Beatriz Marcotegui and Sebastián Ortega and Agustín Trujillo and José Pablo Suárez and José Miguel Santana and Cristian Ramírez and Kiran Akadas and Shankar Gangisetty"
+}
+```
+
 ## References
 
 1.	Zolanvari, S. M., Ruano, S., Rana, A., Cummins, A., Silva, R. E., Rahbar, M., & Smolic, A. (2019). DublinCity: Annotated LiDAR Point Cloud and its Applications. arXiv: Computer Vision and Pattern Recognition.
