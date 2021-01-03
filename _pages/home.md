@@ -24,7 +24,7 @@ In this track, we provide large scale 3D point cloud pairs in two different year
 
 ## Dataset
 
-The data is provided by Cyclomedia. We choose over ??  manually annotated street-scene 3D point cloud pairs in two different years. The point clouds are recorded by a lidar sensor on a car. Each point cloud pair represents a street scene in two different years and contains a group of changed or unchanged objects. Objects are annotated into 5 meaningful change types and an extra `undefined` class which will not be evaluated. The five meaningful change labels are:
+The data is provided by Cyclomedia. We choose over ??  manually annotated street-scene 3D point cloud pairs in two different years. The point clouds are recorded by  mobile laser scanning (MLS). Each point cloud pair represents a street scene in two different years and contains a group of changed or unchanged objects. Objects are annotated into 5 meaningful change types and an extra `undefined` class which will not be evaluated. The five meaningful change labels are:
 
 (1) `Nochange` (2) `Change` (3) `Added` (4) `Removed` (5) `Color_change` 
 
@@ -51,7 +51,7 @@ From participants, no later than the deadline mentioned in the schedule, we expe
 
 ## Evaluation
 
-The main goal of the track is to segment semantic objects out of the street-scene 3D point clouds. For different classes, IoU (Intersection over Union) is one of the main evaluation metrics. For the whole dataset, the unweighted average of IoU (mIoU) of each class and global accuracy are import indicators. We set these three metrics as the main evaluation indicators.
+The main goal of the track is to find change area and corresponding change labels. For different classes, IoU (Intersection over Union) is one of the main evaluation metrics. For the whole dataset, the unweighted average of IoU (mIoU) of each class and global accuracy are import indicators. We set these three metrics as the main evaluation indicators.
 
 ## Schedule
 
