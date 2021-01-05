@@ -43,7 +43,7 @@ To fit for a learning system, the dataset is split into training and test sets w
 
 ## Registration
 
-To participate in the track, please send us an email. In it, please confirm your interest in participation and mention your affiliation and possible co-authors. After filling out and submitting this <img src="/assets/word_icon.jpeg" height="18"> [terms of usage document]() to [shrec@cs.uu.nl](mailto:shrec@cs.uu.nl) and [t.ku@uu.nl](mailto:t.ku@uu.nl), you will get the credentials to download the dataset. 
+To participate in the track, please send us an email. In it, please confirm your interest in participation and mention your affiliation and possible co-authors. After filling out and submitting this <img src="/assets/word_icon.jpeg" height="18"> [terms of usage document](/assets/SHREC2021%20Terms%20of%20Use%20of%20CMT%20UU%20%20data.docx) to [shrec@cs.uu.nl](mailto:shrec@cs.uu.nl) and [t.ku@uu.nl](mailto:t.ku@uu.nl), you will get the credentials to download the dataset. 
 
 ## Submission
 
@@ -82,8 +82,8 @@ The registration and submission deadlines are in AoE (Anywhere on Earth) timezon
 
 - Tao Ku, Utrecht University, Department of Information and Computing Sciences.
 - Sam Galanakis, Utrecht University, Department of Information and Computing Sciences.
-- Remco C. Veltkamp, Utrecht University, Department of Information and Computing Sciences.
 - Bas Boom, Cyclomedia Technology.
+- Remco C. Veltkamp, Utrecht University, Department of Information and Computing Sciences.
 
 To contact the organizers, please send email to [t.ku@uu.nl](mailto:t.ku@uu.nl)
 
