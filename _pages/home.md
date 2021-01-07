@@ -26,7 +26,7 @@ In this track, we provide large scale 3D point cloud pairs in two different year
 
 The data is provided by CycloMedia. The dataset consists of annotated "points of interest" in street level colored point clouds gathered in 2016 and 2020 in the city of Schiedam, Netherlands using vehicle mounted LiDAR sensors. The dataset focuses on street furniture, with the majority of labels corresponding to road-signs although other objects such as advertisements, statues and garbage bins are also included. Labeling was done through manual inspection.
 
-We choose over 79 annotated street-scene 3D point cloud pairs in the year of 2016 and 2020. Each point cloud pair represents a street scene in two different years and contains a group of changed or unchanged objects. Each object pair is assigned one of the following labels:
+We choose over 78 annotated street-scene 3D point cloud pairs in the year of 2016 and 2020. Each point cloud pair represents a street scene in two different years and contains a group of changed or unchanged objects. Each object pair is assigned one of the following labels:
 
 (1) `Nochange` (2) `Removed` (3) `Added` (4) `Change` (5) `Color_change` 
 
