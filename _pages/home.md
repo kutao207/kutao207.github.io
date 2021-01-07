@@ -111,6 +111,8 @@ A total of 78 scenes with varying numbers of points of interest are included in 
 
 ## Download
 
+During the challenge period, only the train set is provided to the participants.
+
 **To obtain the dataset, you must register first:**
 
 ## Registration
@@ -119,7 +121,7 @@ To participate in the track, please send us an email. In it, please confirm your
 
 ## Submission
 
-From participants, no later than the deadline mentioned in the schedule, we expect results submitted along with a detailed description of the method (less than two pages) used to generate them. Results should be presented as a collection of change labels on given test set.
+From participants, no later than the deadline mentioned in the schedule, we expect an executable program submitted along with a detailed description of the method (less than two pages). The program will be used to generate results on the private test set.
 
 ## Evaluation
 
