@@ -24,18 +24,90 @@ In this track, we provide large scale 3D point cloud pairs in two different year
 
 ## Dataset
 
-The data is provided by Cyclomedia. We choose over ??  manually annotated street-scene 3D point cloud pairs in two different years. The point clouds are recorded by  mobile laser scanning (MLS). Each point cloud pair represents a street scene in two different years and contains a group of changed or unchanged objects. Objects are annotated into 5 meaningful change types and an extra `undefined` class which will not be evaluated. The five meaningful change labels are:
+The data is provided by CycloMedia. The dataset consists of annotated "points of interest" in street level colored point clouds gathered in 2016 and 2020 in the city of Schiedam, Netherlands using vehicle mounted LiDAR sensors. The dataset focuses on street furniture, with the majority of labels corresponding to road-signs although other objects such as advertisements, statues and garbage bins are also included. Labeling was done through manual inspection.
 
-(1) `Nochange` (2) `Change` (3) `Added` (4) `Removed` (5) `Color_change` 
+We choose over 79 annotated street-scene 3D point cloud pairs in the year of 2016 and 2020. Each point cloud pair represents a street scene in two different years and contains a group of changed or unchanged objects. Each object pair is assigned one of the following labels:
 
-To explain the class labels, suppose we have a point cloud pair of time t1 and t2. Here, `Added` and `Removed` mean an object existed at time t1 but not at t2 and vice versa. `Color_change` refers to cases where change occurs only in color. `Change` refers to cases where an object is there but changed or replaced by a different object.
+(1) `Nochange` (2) `Removed` (3) `Added` (4) `Change` (5) `Color_change` 
 
+To explain the labels:
+
+`Nochange` refers to the case where there is no significant change between the two scans.
+
+`Added` refers to objects that exist in the first scan but are removed during the second scan, `Removed` is the opposite case.
+
+`Change` refers to the case where there is at least significant geometric change but also includes cases where there is also significant change in the RGB space. This includes being replaced by other objects. For example in the following picture a small blue sign is added whilst the rest of the sign stays the same.
+
+<img src="assets/pic01.png" style="display: block; margin-left: auto; margin-right: auto; width: 60%;">
+
+`Color_change` refers to the case where there is not significant geometric case but significant change in the RGB space. For example, in the following picture, content of an advertisement changed but the rest of the cloud is the same.
+
+<img src="assets/pic02.png" style="display: block; margin-left: auto; margin-right: auto; width: 60%;">
+
+
+<!-- To explain the class labels, suppose we have a point cloud pair of time t1 and t2. Here, `Added` and `Removed` mean an object existed at time t1 but not at t2 and vice versa. `Color_change` refers to cases where change occurs only in color. `Change` refers to cases where an object is there but changed or replaced by a different object. -->
+
+### Labeling Format
+
+Each data point consists of the coordinate of a point of interest and the corresponding label.
+The points have been placed on or at the base of the object. A first step for preparing the points for input to a model may be taking all points within a certain x-y radius of the point of interest (resulting cylinders as seen above) from both point clouds. In most cases, apart from the ground this will give a fairly clean representation of the object. There are though cases where this will include other objects (for example signs that are close together) or parts of trees that are above the object.
+
+Corresponding point clouds are saved with file names starting with the same integer (the scene number). The classifications are saved in csv files which also start with the same scene number. The coordinates contained in the csv file correspond to the points of interest.
 
 <!-- ![](assets/image01.png)
  -->
+
+
+To fit for a learning system, the dataset is split into training and test sets with the ratio 80% and 20%.
+
+### Viewing the dataset
+
+The points and corresponding labels can be viewed in context by loading the classification csv and the corresponding cloud(s) in [CloudCompare](https://www.danielgm.net/cc/) software.
+
+The following <image src="/assets/mark-github-512.webp" height="18"/> [tool](https://github.com/SamGalanakis/ChangeDetectionDatasetViewer) can be used to isolate, view these points of interest in a more convenient manner. A very similar tool was used to conduct the labeling. 
+
 <img src="assets/image01.png" style="display: block; margin-left: auto; margin-right: auto; width: 80%;">
 
-To fit for a learning system, the dataset is split into training and test sets with the ratio 80% and 20%. For both training and test sets, we provide ground-truth semantic labels.
+<!-- 
+## Dataset statistics
+
+A total of 78 scenes with varying numbers of points of interest are included in the dataset.
+
+<table>
+<tr> 
+    <th> Labels </th>
+    <th> Number </th>
+</tr>
+<tr> 
+    <th> Nochange </th>
+    <th> 441 </th>
+</tr>
+<tr> 
+    <th> Removed </th>
+    <th> 125 </th>
+</tr>
+<tr> 
+    <th> Added </th>
+    <th> 69 </th>
+</tr>
+<tr> 
+    <th> Change </th>
+    <th> 80 </th>
+</tr>
+<tr> 
+    <th> Color_change </th>
+    <th> 26 </th>
+</tr>
+</table>
+
+| Labels | Number |
+| ------- | ------- |
+| Nochange | 441 |
+| Removed | 125 |
+| Added | 69 |
+| Change | 80 |
+| Color_change | 26 | -->
+
 
 ## Download
 
@@ -47,11 +119,13 @@ To participate in the track, please send us an email. In it, please confirm your
 
 ## Submission
 
-From participants, no later than the deadline mentioned in the schedule, we expect results submitted along with a one-page description of the method used to generate them. Results should be presented as a collection of estimated point clouds containing their change labels.
+From participants, no later than the deadline mentioned in the schedule, we expect results submitted along with a one-page description of the method used to generate them. Results should be presented as a collection of change labels on given test set.
 
 ## Evaluation
 
-The main goal of the track is to find change area and corresponding change labels. For different classes, IoU (Intersection over Union) is one of the main evaluation metrics. For the whole dataset, the unweighted average of IoU (mIoU) of each class and global accuracy are import indicators. We set these three metrics as the main evaluation indicators.
+The main goal of the track is to find change area and corresponding change labels. Global accuracy and per-class accuracy will be the main evaluation metrics.
+
+<!-- For different classes, IoU (Intersection over Union) is one of the main evaluation metrics. For the whole dataset, the unweighted average of IoU (mIoU) of each class and global accuracy are import indicators. We set these three metrics as the main evaluation indicators. -->
 
 ## Schedule
 
