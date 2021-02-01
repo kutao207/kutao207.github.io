@@ -34,7 +34,7 @@ To explain the labels:
 
 `Nochange` refers to the case where there is no significant change between the two scans.
 
-`Added` refers to objects that exist in the first scan but are removed during the second scan, `Removed` is the opposite case.
+`Added` refers to objects that do not exist in the first scan but are added during the second scan, `Removed` is the opposite case.
 
 `Change` refers to the case where there is at least significant geometric change but also includes cases where there is also significant change in the RGB space. This includes being replaced by other objects. For example in the following picture a small blue sign is added whilst the rest of the sign stays the same.
 
