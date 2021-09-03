@@ -114,7 +114,6 @@ A total of 78 scenes with varying numbers of points of interest are included in 
 During the challenge period, only the train set is provided to the participants.
 
 The full dataset is now available:
-
 1. [<b><span style="color:blue">Raw point clouds and train set</span></b>](https://drive.google.com/drive/folders/1SVc4fXt5sZBZgqu1ko7xmB9y383H6c9A?usp=sharing), 
 2. [<b><span style="color:blue">Test set</span></b>](https://drive.google.com/drive/folders/1qZvDq-n6qrrRSwa7OKinUiq3JzsHG50z?usp=sharing). 
 
