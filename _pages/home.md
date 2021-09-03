@@ -115,9 +115,8 @@ During the challenge period, only the train set is provided to the participants.
 
 The full dataset is now available:
 
-[<b><span style="color:blue">Raw point clouds and train set</span></b>](https://drive.google.com/drive/folders/1SVc4fXt5sZBZgqu1ko7xmB9y383H6c9A?usp=sharing), 
-
-[<b><span style="color:blue">Test set</span></b>](https://drive.google.com/drive/folders/1qZvDq-n6qrrRSwa7OKinUiq3JzsHG50z?usp=sharing). 
+1. [<b><span style="color:blue">Raw point clouds and train set</span></b>](https://drive.google.com/drive/folders/1SVc4fXt5sZBZgqu1ko7xmB9y383H6c9A?usp=sharing), 
+2. [<b><span style="color:blue">Test set</span></b>](https://drive.google.com/drive/folders/1qZvDq-n6qrrRSwa7OKinUiq3JzsHG50z?usp=sharing). 
 
 If you are willing to use our data, please cite our [paper](https://www.sciencedirect.com/science/article/abs/pii/S0097849321001369).
 
