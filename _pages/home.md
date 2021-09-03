@@ -115,6 +115,22 @@ During the challenge period, only the train set is provided to the participants.
 
 The full dataset is now available [[**raw point clouds and train set**]](https://drive.google.com/drive/folders/1SVc4fXt5sZBZgqu1ko7xmB9y383H6c9A?usp=sharing), [[**test set**]](https://drive.google.com/drive/folders/1qZvDq-n6qrrRSwa7OKinUiq3JzsHG50z?usp=sharing). If you are willing to use our data, please cite our [paper](https://www.sciencedirect.com/science/article/abs/pii/S0097849321001369).
 
+```
+@article{KU2021192,
+title = {SHREC 2021: 3D point cloud change detection for street scenes},
+journal = {Computers & Graphics},
+volume = {99},
+pages = {192-200},
+year = {2021},
+issn = {0097-8493},
+doi = {https://doi.org/10.1016/j.cag.2021.07.004},
+url = {https://www.sciencedirect.com/science/article/pii/S0097849321001369},
+author = {Tao Ku and Sam Galanakis and Bas Boom and Remco C. Veltkamp and Darshan Bangera and Shankar Gangisetty and Nikolaos Stagakis and Gerasimos Arvanitis and Konstantinos Moustakas},
+keywords = {SHREC 2021, 3D Point cloud change detection, Graph convolutional networks, Siamese networks},
+}
+```
+
+
 ## Registration
 
 To participate in the track, please send us an email. In it, please confirm your interest in participation and mention your affiliation and possible co-authors. After filling out and submitting this <img src="/assets/word_icon.jpeg" height="18"> [terms of usage document](/assets/SHREC2021%20Terms%20of%20Use%20of%20CMT%20UU%20%20data.docx) to [shrec@cs.uu.nl](mailto:shrec@cs.uu.nl) and [t.ku@uu.nl](mailto:t.ku@uu.nl), you will get the credentials to download the dataset. 
