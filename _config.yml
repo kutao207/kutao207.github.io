@@ -23,7 +23,8 @@ last_updated: false # set to true if you want to display last updated in the foo
 # Layout
 # -----------------------------------------------------------------------------
 
-navbar_fixed: true
+# navbar_fixed: true
+navbar_fixed: false
 footer_fixed: true
 
 # Dimensions
